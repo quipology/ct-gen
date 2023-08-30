@@ -1,0 +1,16 @@
+---
+- client_name: customer1
+  tunnel_number: 120
+  client_public_ip: 8.8.8.8
+  client_remote_host_cidr: 8.8.8.8/32
+  phase1_encryption: aes-256-cbc
+  phase1_authentication: sha512
+  phase1_dh_group: 14
+  phase1_lifetime_type: minutes
+  phase1_lifetime_value: 1440
+  phase2_encryption: aes-256-cbc
+  phase2_authentication: sha512
+  phase2_dh_group: 14
+  phase2_lifetime_type: minutes
+  phase2_lifetime_value: 480
+  pre_shared_key: somesecretpassword
